@@ -33,16 +33,7 @@ app.get('/:webinarID', express.json(), async (req, res) => {
 		return;
 	}
 
-	let list = [];
-	for (let i in registrants) {
-		list.push({
-			first_name: registrants[i].first_name,
-			email: registrants[i].email,
-			join_url: registrants[i].join_url
-		});
-	}
-
-	res.status(200).json(list);
+	res.status(200).json(registrants);
 });
 
 app.listen(port, () => {
