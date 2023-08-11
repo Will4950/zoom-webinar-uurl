@@ -23,13 +23,6 @@ nano .env
 # Install required dependencies
 npm install 
 
-# Start the app
-npm start
-
 ```
 
-The appplication is listening at localhost:3000.
-
-Send a get request to localhost:3000/webinarID
-
-> replace webinarID with your webinar ID.  Example: localhost:3000/8675309
+Run ./getWebinarUrls.js -h for instructions.
