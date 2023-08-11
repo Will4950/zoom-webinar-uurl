@@ -43,7 +43,7 @@ program.addHelpText(
 	`
 Usage:
   getWebinarUrls.js -w 8675309
-  getWebinarUrls.js --wid 8675309 --dir ./newdir`
+  getWebinarUrls.js -w 8675309 --dir ./newdir`
 );
 
 program.parse();
