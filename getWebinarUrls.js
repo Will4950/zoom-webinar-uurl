@@ -90,4 +90,4 @@ try {
 	process.exit(1);
 }
 
-logger.info(`Created report ${file} sucessfully.`);
+logger.info(`Created report ${file} successfully.`);
